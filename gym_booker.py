@@ -52,7 +52,6 @@ def book_appt():
     # Opens webbrowser, accepts cookies, and begins login procedure
     PATH = 'C:\Program Files (x86)\chromedriver.exe'
     driver = webdriver.Chrome(PATH)
-    driver.implicitly_wait(10)
     
     # Uncomment this to book RWC Main Facility Access Reservations
     driver.get("https://ucfrwc.org/Program/GetProgramDetails?courseId"\
